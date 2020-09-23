@@ -1,0 +1,194 @@
+[Root]
+Most Recent Package=Octogoon Bestellingen
+
+
+[Package|My Dynamic Web Server.|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Visual Basic\MyWebserver\package
+
+[Package|My Dynamic Web Server.|Configure DAO ISAMs]
+Applicable=No
+
+[Package|My Dynamic Web Server.|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|My Dynamic Web Server.|Files Found]
+
+[Package|My Dynamic Web Server.|Files Released]
+
+[Package|My Dynamic Web Server.|Missing Dependency Information]
+D:\Visual Basic\MyWebserver\EZFTP.OCX=
+
+[Package|My Dynamic Web Server.|Out-of-Date Dependency Information]
+
+[Package|My Dynamic Web Server.|Files Added]
+D:\Visual Basic\MyWebserver\ReadMe_Web.txt=
+C:\index.html=
+
+[Package|My Dynamic Web Server.|Files Removed]
+
+[Package|My Dynamic Web Server.|Files In Project]
+D:\Visual Basic\MyWebserver\Webserver.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\Mswinsck.ocx=Yes
+D:\Visual Basic\MyWebserver\EZFTP.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Visual Basic\MyWebserver\ReadMe_Web.txt=Yes
+C:\index.html=Yes
+
+[Package|My Dynamic Web Server.|Configure Registry Files]
+Applicable=No
+
+[Package|My Dynamic Web Server.|Configure Remote Servers]
+Applicable=No
+
+[Package|My Dynamic Web Server.|Install Locations]
+D:\Visual Basic\MyWebserver\Webserver.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Mswinsck.ocx=$(WinSysPath)
+D:\Visual Basic\MyWebserver\EZFTP.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Visual Basic\MyWebserver\ReadMe_Web.txt=$(AppPath)
+C:\index.html=$(AppPath)
+
+[Package|My Dynamic Web Server.|Configure Shared Files]
+Applicable=Yes
+D:\Visual Basic\MyWebserver\Webserver.exe=No
+D:\Visual Basic\MyWebserver\ReadMe_Web.txt=No
+C:\index.html=No
+
+[Package|My Dynamic Web Server.|Distribution]
+Type=single
+Size=
+Title=My Dynamic Web Server
+
+[Package|My Dynamic Web Server.|IconGroups]
+Group0=My Dynamic Web Server
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|My Dynamic Web Server.|My Dynamic Web Server]
+Icon1=Webserver.exe
+Title1=My Dynamic Web Server
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|My Dynamic Web Server.|Package]
+PackageFolder=D:\Visual Basic\MyWebserver\package
+ProjectFolder=D:\Visual Basic\MyWebserver
+ServerSideCab=
+File1=D:\Visual Basic\MyWebserver\package\setup.exe
+File2=D:\Visual Basic\MyWebserver\package\Setup.Lst
+File3=D:\Visual Basic\MyWebserver\package\Webserver.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Octogoon Bestellingen|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Visual Basic\Octogoon1\package
+
+[Package|Octogoon Bestellingen|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Octogoon Bestellingen|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Octogoon Bestellingen|Files Found]
+
+[Package|Octogoon Bestellingen|Files Released]
+
+[Package|Octogoon Bestellingen|Missing Dependency Information]
+
+[Package|Octogoon Bestellingen|Out-of-Date Dependency Information]
+
+[Package|Octogoon Bestellingen|Files Added]
+D:\Visual Basic\Octogoon1\Icons\octogoonPRN.jpg=
+
+[Package|Octogoon Bestellingen|Files Removed]
+d:\visual basic\mywebserver\webserver.exe=
+c:\winnt\system32\mswinsck.ocx=
+c:\winnt\system32\ezftp.ocx=
+
+[Package|Octogoon Bestellingen|Files In Project]
+D:\Visual Basic\MyWebserver\Webserver.exe=No
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\Mswinsck.ocx=No
+C:\WINNT\system32\EZFTP.OCX=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Visual Basic\Octogoon1\Icons\octogoonPRN.jpg=Yes
+
+[Package|Octogoon Bestellingen|Configure Registry Files]
+Applicable=No
+
+[Package|Octogoon Bestellingen|Configure Remote Servers]
+Applicable=No
+
+[Package|Octogoon Bestellingen|Install Locations]
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Visual Basic\Octogoon1\Icons\octogoonPRN.jpg=$(AppPath)
+
+[Package|Octogoon Bestellingen|Configure Shared Files]
+Applicable=Yes
+D:\Visual Basic\Octogoon1\Icons\octogoonPRN.jpg=No
+
+[Package|Octogoon Bestellingen|Distribution]
+Type=single
+Size=
+Title=Octogoon Bestellingen
+
+[Package|Octogoon Bestellingen|IconGroups]
+Group0=Octogoon Bestellingen
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Octogoon Bestellingen|Octogoon Bestellingen]
+Icon1=Webserver.exe
+Title1=Octogoon Bestellingen
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Octogoon Bestellingen|Package]
+PackageFolder=D:\Visual Basic\Octogoon1\package
+ProjectFolder=D:\Visual Basic\MyWebserver
+ServerSideCab=
+File1=D:\Visual Basic\Octogoon1\package\setup.exe
+File2=D:\Visual Basic\Octogoon1\package\Setup.Lst
+File3=D:\Visual Basic\Octogoon1\package\Webserver.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

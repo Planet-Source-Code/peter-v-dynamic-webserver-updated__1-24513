@@ -1,0 +1,22 @@
+<SCRIPT LANGUAGE="javascript">
+
+var IPADR ='NONE';
+
+if(IPADR =='NONE')
+{
+// if your OWN webserver isn't active.. 
+alert("Server is not active");
+// Go to your other html file
+// example....
+// navigate("/index2.html");
+} 
+else
+{
+//Go to your OWN Webserver..
+navigate("http://"+IPADR);
+// : if you server not runs on port 80 .. example ..
+// navigate("http://"+IPADR+":5080");   
+// if your server runs on port 5080...
+}
+
+</SCRIPT>
